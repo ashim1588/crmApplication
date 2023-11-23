@@ -11,6 +11,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import reducers from '../reducers/PeopleReducer';
+import PeopleList from './PeopleList';
 
 const store = createStore(
   reducers,
@@ -22,7 +23,7 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-          <Text style={styles.welcome}>Welcome to CRM!</Text>
+          <PeopleList />
         </View>
       </Provider>
     );

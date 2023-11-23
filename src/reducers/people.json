@@ -4,7 +4,7 @@
         "firstName": "Ashim",
         "lastName": "Mehar",
         "phone": "7229802276",
-        "comapny": "Linkedin",
+        "company": "Linkedin",
         "project": "CRM Application",
         "notes": "An example note"
     },
@@ -13,7 +13,7 @@
         "firstName": "Rajat",
         "lastName": "Yadav",
         "phone": "7229802276",
-        "comapny": "Linkedin",
+        "company": "Linkedin",
         "project": "CRM Application",
         "notes": "An example note"
     },
@@ -22,7 +22,7 @@
         "firstName": "Kaushal",
         "lastName": "Parihar",
         "phone": "7229802276",
-        "comapny": "Linkedin",
+        "company": "Linkedin",
         "project": "CRM Application",
         "notes": "An example note"
     }
