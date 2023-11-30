@@ -16,6 +16,7 @@ function TabNavigator() {
           activeTintColor: 'white',
           inactiveTintColor: '#80cbc4',
           showLabel: true,
+          showIcon: true,
           style: {
             backgroundColor: '#26a69a',
           },

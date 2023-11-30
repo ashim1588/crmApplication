@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {FlatList, StyleSheet, View} from 'react-native';
 import {connect} from 'react-redux';
 import PeopleItem from './PeopleItem';
+import PeopleDetails from './PeopleDetail';
+import {Icon} from 'react-native-vector-icons/EvilIcons';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,20 +16,35 @@ const styles = StyleSheet.create({
 });
 
 class PeopleList extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
+  static navigationOptions = {
+    tabBarIcon: ({tintColor}) => (
+      <Icon name={'archive'} size={50} color={tintColor} />
+    ),
+  };
+  renderInitialView() {
+    if (this.props.detailView === true) {
+      return <PeopleDetails />;
+    } else {
+      return (
         <FlatList
           data={this.props.people}
-          renderItem={({item}) => <PeopleItem people={item} />}
+          renderItem={({item}) => (
+            <PeopleItem
+              people={item}
+              keyExtractor={(item, index) => index.toString()}
+            />
+          )}
         />
-      </View>
-    );
+      );
+    }
+  }
+  render() {
+    return <View style={styles.container}>{this.renderInitialView()}</View>;
   }
 }
 
 const mapStateToProps = state => {
-  return {people: state.people};
+  return {people: state.people, detailView: state.detailView};
 };
 
 export default connect(mapStateToProps)(PeopleList);
