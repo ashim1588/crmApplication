@@ -9,15 +9,13 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
-import {createStore} from 'redux';
+import {applyMiddleware, createStore} from 'redux';
 
 import reducers from '../reducers/PeopleReducer';
 import TabNavigator from './Navigation';
+import thunk from 'redux-thunk';
 
-const store = createStore(
-  reducers,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-);
+const store = createStore(reducers, applyMiddleware(thunk));
 
 export default class App extends Component {
   render() {

@@ -12,8 +12,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17467413102945B490E8FD2A /* call@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 5010ACD1CF5F4980B2135CCE /* call@3x.png.png */; };
+		20EC7C9313BA43469888CEE4 /* sms@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DEF6E584C4446E8811ACEF /* sms@2x.png.png */; };
+		211436750FE54D3681D446B9 /* CRM.afdesign in Resources */ = {isa = PBXBuildFile; fileRef = 1EF2F691567A4FFAA4A6D210 /* CRM.afdesign */; };
+		4C89821E23E14CAFB0F3338B /* sms@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EA2900541D485B99D4CBB1 /* sms@3x.png.png */; };
 		7699B88040F8A987B510C191 /* libPods-crmApplication-crmApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-crmApplication-crmApplicationTests.a */; };
+		808418660A3442B0A74D92BC /* CRM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFF40F76954D24A2D6EB39 /* CRM.pdf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86BB0F38AFD9482E9C46E2FF /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 85250ACAFD674FF5B1487B55 /* email.png */; };
+		96625DF0030543BA8BB5D276 /* add_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF376B1E84B3433693810183 /* add_button.png */; };
+		980F881A59A541DB913D4769 /* email@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = A843C7C626FE40D6A78373BD /* email@2x.png.png */; };
+		A6B9D95E150E477D9FFD91CA /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 46DDF78802294BB1B5853B05 /* sms.png */; };
+		C59840D861C04A12B73125E6 /* call@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B2C12037BE4665914B691D /* call@2x.png.png */; };
+		C95FD9DE9D7A48BB86436F65 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4218911EB71C4812B71C6625 /* background.jpg */; };
+		CBE7C4E7E0B347CC8DC17230 /* email@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C5B7C8C6414E2698C04F74 /* email@3x.png.png */; };
+		CE1A1B1383074A678A7BD16F /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 820A972F70A741B492C2249D /* call.png */; };
+		D1CEE80DFBC54E748117F764 /* close@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F76E2580145969D7FDC4C /* close@3x.png.png */; };
+		DD871D6DCD574ADDB1276C95 /* close@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F353A53085491A9D06E6F1 /* close@2x.png.png */; };
+		EEFEC2C8B39842749838B649 /* add_button@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 805C6181389D4DD0A19BB100 /* add_button@3x.png.png */; };
+		FA00BDD6DF084002B21F4F26 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DC97D04E6E47488DAA496F /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +54,30 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = crmApplication/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = crmApplication/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-crmApplication-crmApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crmApplication-crmApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF2F691567A4FFAA4A6D210 /* CRM.afdesign */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CRM.afdesign; path = ../src/images/CRM.afdesign; sourceTree = "<group>"; };
+		1FDFF40F76954D24A2D6EB39 /* CRM.pdf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CRM.pdf; path = ../src/images/CRM.pdf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-crmApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crmApplication.debug.xcconfig"; path = "Target Support Files/Pods-crmApplication/Pods-crmApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		4218911EB71C4812B71C6625 /* background.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = background.jpg; path = ../src/images/background.jpg; sourceTree = "<group>"; };
+		42C5B7C8C6414E2698C04F74 /* email@3x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "email@3x.png.png"; path = "../src/images/email@3x.png.png"; sourceTree = "<group>"; };
+		46DDF78802294BB1B5853B05 /* sms.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sms.png; path = ../src/images/sms.png; sourceTree = "<group>"; };
+		5010ACD1CF5F4980B2135CCE /* call@3x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "call@3x.png.png"; path = "../src/images/call@3x.png.png"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-crmApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crmApplication.release.xcconfig"; path = "Target Support Files/Pods-crmApplication/Pods-crmApplication.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-crmApplication-crmApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crmApplication-crmApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-crmApplication-crmApplicationTests/Pods-crmApplication-crmApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-crmApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crmApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B2C12037BE4665914B691D /* call@2x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "call@2x.png.png"; path = "../src/images/call@2x.png.png"; sourceTree = "<group>"; };
+		64F353A53085491A9D06E6F1 /* close@2x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "close@2x.png.png"; path = "../src/images/close@2x.png.png"; sourceTree = "<group>"; };
+		74DEF6E584C4446E8811ACEF /* sms@2x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sms@2x.png.png"; path = "../src/images/sms@2x.png.png"; sourceTree = "<group>"; };
+		805C6181389D4DD0A19BB100 /* add_button@3x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "add_button@3x.png.png"; path = "../src/images/add_button@3x.png.png"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = crmApplication/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820A972F70A741B492C2249D /* call.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = call.png; path = ../src/images/call.png; sourceTree = "<group>"; };
+		85250ACAFD674FF5B1487B55 /* email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = email.png; path = ../src/images/email.png; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-crmApplication-crmApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crmApplication-crmApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-crmApplication-crmApplicationTests/Pods-crmApplication-crmApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		A843C7C626FE40D6A78373BD /* email@2x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "email@2x.png.png"; path = "../src/images/email@2x.png.png"; sourceTree = "<group>"; };
+		B8EA2900541D485B99D4CBB1 /* sms@3x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sms@3x.png.png"; path = "../src/images/sms@3x.png.png"; sourceTree = "<group>"; };
+		BF376B1E84B3433693810183 /* add_button.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = add_button.png; path = ../src/images/add_button.png; sourceTree = "<group>"; };
+		C67F76E2580145969D7FDC4C /* close@3x.png.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "close@3x.png.png"; path = "../src/images/close@3x.png.png"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F4DC97D04E6E47488DAA496F /* close.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = close.png; path = ../src/images/close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +156,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				AE14007AEDFE42DA8A612A46 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +170,31 @@
 				00E356EE1AD99517003FC87E /* crmApplicationTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE14007AEDFE42DA8A612A46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EF2F691567A4FFAA4A6D210 /* CRM.afdesign */,
+				1FDFF40F76954D24A2D6EB39 /* CRM.pdf */,
+				BF376B1E84B3433693810183 /* add_button.png */,
+				805C6181389D4DD0A19BB100 /* add_button@3x.png.png */,
+				4218911EB71C4812B71C6625 /* background.jpg */,
+				820A972F70A741B492C2249D /* call.png */,
+				62B2C12037BE4665914B691D /* call@2x.png.png */,
+				5010ACD1CF5F4980B2135CCE /* call@3x.png.png */,
+				F4DC97D04E6E47488DAA496F /* close.png */,
+				64F353A53085491A9D06E6F1 /* close@2x.png.png */,
+				C67F76E2580145969D7FDC4C /* close@3x.png.png */,
+				85250ACAFD674FF5B1487B55 /* email.png */,
+				A843C7C626FE40D6A78373BD /* email@2x.png.png */,
+				42C5B7C8C6414E2698C04F74 /* email@3x.png.png */,
+				46DDF78802294BB1B5853B05 /* sms.png */,
+				74DEF6E584C4446E8811ACEF /* sms@2x.png.png */,
+				B8EA2900541D485B99D4CBB1 /* sms@3x.png.png */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +304,23 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				211436750FE54D3681D446B9 /* CRM.afdesign in Resources */,
+				808418660A3442B0A74D92BC /* CRM.pdf in Resources */,
+				96625DF0030543BA8BB5D276 /* add_button.png in Resources */,
+				EEFEC2C8B39842749838B649 /* add_button@3x.png.png in Resources */,
+				C95FD9DE9D7A48BB86436F65 /* background.jpg in Resources */,
+				CE1A1B1383074A678A7BD16F /* call.png in Resources */,
+				C59840D861C04A12B73125E6 /* call@2x.png.png in Resources */,
+				17467413102945B490E8FD2A /* call@3x.png.png in Resources */,
+				FA00BDD6DF084002B21F4F26 /* close.png in Resources */,
+				DD871D6DCD574ADDB1276C95 /* close@2x.png.png in Resources */,
+				D1CEE80DFBC54E748117F764 /* close@3x.png.png in Resources */,
+				86BB0F38AFD9482E9C46E2FF /* email.png in Resources */,
+				980F881A59A541DB913D4769 /* email@2x.png.png in Resources */,
+				CBE7C4E7E0B347CC8DC17230 /* email@3x.png.png in Resources */,
+				A6B9D95E150E477D9FFD91CA /* sms.png in Resources */,
+				20EC7C9313BA43469888CEE4 /* sms@2x.png.png in Resources */,
+				4C89821E23E14CAFB0F3338B /* sms@3x.png.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
