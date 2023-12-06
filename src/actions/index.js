@@ -64,3 +64,13 @@ export const loadInitialContacts = () => {
       .catch(error => console.log(error));
   };
 };
+
+export const deleteContact = id => {
+  return dispatch => {
+    fetch(`http://192.168.1.39:3000/contact/${id}`, {method: 'DELETE'}).then(
+      () => {
+        dispatch({type: 'DELETE_CONTACT'});
+      },
+    );
+  };
+};

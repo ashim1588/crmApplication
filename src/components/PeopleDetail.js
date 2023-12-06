@@ -121,6 +121,30 @@ class PeopleDetail extends Component {
               size={40}
               style={styles.textIcons}
             />
+            <View style={styles.editArea}>
+              <TouchableOpacity style={styles.sections}>
+                <MaterialIcon
+                  name={'autorenew'}
+                  size={40}
+                  style={styles.editIcon}
+                />
+                <Text style={[theme.cardContentStyle]}>EDIT</Text>
+              </TouchableOpacity>
+            </View>
+            <View>
+              <TouchableOpacity
+                style={styles.sections}
+                onPress={() => {
+                  this.props.deleteContact(this.props.person._id);
+                }}>
+                <MaterialIcon
+                  name={'delete-forever'}
+                  size={40}
+                  style={styles.editIcon}
+                />
+                <Text style={[theme.cardContentStyle]}>DELETE</Text>
+              </TouchableOpacity>
+            </View>
             <Text style={[theme.cardContentStyle]}>
               {this.props.person.project}
             </Text>
