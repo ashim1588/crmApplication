@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import PeopleItem from './PeopleItem';
 import PeopleDetails from './PeopleDetail';
 import {Icon} from 'react-native-vector-icons/EvilIcons';
+import {loadInitialContacts} from '../actions';
 
 const styles = StyleSheet.create({
   container: {
@@ -21,6 +22,10 @@ class PeopleList extends Component {
       <Icon name={'archive'} size={50} color={tintColor} />
     ),
   };
+
+  componentDidMount() {
+    this.props.loadInitialContacts();
+  }
   renderInitialView() {
     if (this.props.detailView === true) {
       return <PeopleDetails />;
@@ -47,4 +52,4 @@ const mapStateToProps = state => {
   return {people: state.people, detailView: state.detailView};
 };
 
-export default connect(mapStateToProps)(PeopleList);
+export default connect(mapStateToProps, {loadInitialContacts})(PeopleList);
