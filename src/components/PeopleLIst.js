@@ -9,7 +9,7 @@ import {loadInitialContacts} from '../actions';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: 353,
+    width: 390,
     flexWrap: 'wrap',
     paddingTop: 20,
     paddingLeft: 20,

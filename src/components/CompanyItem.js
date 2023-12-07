@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   },
   title: {
     top: 20,
-    left: 80,
+    left: 110,
     fontSize: 24,
   },
   image: {
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     position: 'absolute',
-    top: 15,
-    left: 0,
+    top: 10,
+    left: 10,
     color: 'white',
     backgroundColor: 'rgba(255, 255, 255, 0)',
   },

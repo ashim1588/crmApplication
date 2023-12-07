@@ -17,6 +17,9 @@ import * as actions from '../actions';
 const theme = getTheme();
 
 const styles = StyleSheet.create({
+  container: {
+    marginTop: 15,
+  },
   card: {
     marginTop: 10,
     paddingBottom: 20,
@@ -37,7 +40,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 0,
     height: 100,
-    width: 333,
+    width: 390,
     backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
@@ -45,9 +48,8 @@ const styles = StyleSheet.create({
   closeIcon: {
     position: 'absolute',
     top: 5,
-    left: 295,
-    color: 'rgba(233,166,154,0.8)',
-    backgroundColor: 'rgba(255,255,255,0)',
+    left: 325,
+    color: 'red',
   },
   icon: {
     position: 'absolute',
@@ -71,6 +73,30 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
   },
+  editIcon: {
+    color: '#26a6e4',
+  },
+  sections: {
+    flexDirection: 'row',
+    paddingLeft: 10,
+    paddingTop: 10,
+    width: 100,
+  },
+  deleteIcon: {
+    color: '#ae9a69a',
+  },
+  editDeleteArea: {
+    flexDirection: 'row',
+    paddingLeft: 20,
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    backgroundColor: 'rgba(211,211,211,0.3)',
+    marginBottom: 10,
+  },
+  actionImage: {
+    width: 100,
+    height: 100,
+  },
 });
 
 class DetailView extends Component {
@@ -88,7 +114,7 @@ class DetailView extends Component {
           />
           <EvilIcon name={'user'} size={100} style={styles.icon} />
           <SimpleIcon
-            name={'close'}
+            name="close"
             size={30}
             style={styles.closeIcon}
             onPress={() => this.props.noneSelected()}
@@ -131,7 +157,7 @@ class DetailView extends Component {
               {this.props.person.notes}
             </Text>
           </View>
-          <View style={styles.editArea}>
+          <View style={styles.editDeleteArea}>
             <TouchableOpacity
               style={styles.sections}
               onPress={() => {
@@ -157,7 +183,7 @@ class DetailView extends Component {
               <Text style={theme.cardContentStyle}>DELETE</Text>
             </TouchableOpacity>
           </View>
-          <View>
+          <View style={styles.actionArea}>
             <TouchableOpacity>
               <Image
                 source={require('../images/call@2x.png.png')}
@@ -176,11 +202,11 @@ class DetailView extends Component {
                 style={styles.actionImage}
               />
             </TouchableOpacity>
-            <View style={styles.actionArea}>
-              <Text>Call</Text>
-              <Text>Email</Text>
-              <Text>SMS</Text>
-            </View>
+          </View>
+          <View style={styles.actionArea}>
+            <Text>Call</Text>
+            <Text>Email</Text>
+            <Text>SMS</Text>
           </View>
         </ScrollView>
       </View>

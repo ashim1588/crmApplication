@@ -8,10 +8,10 @@ import CompanyItem from './CompanyItem';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: 390,
     flexWrap: 'wrap',
     paddingTop: 20,
     paddingLeft: 20,
-    backgroundColor: '#e5e5e5',
   },
 });
 
