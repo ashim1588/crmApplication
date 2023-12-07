@@ -1,9 +1,7 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {getTheme} from 'react-native-material-kit';
-import {connect} from 'react-redux';
-import Icon from 'react-native-vector-icons/EvilIcons';
-import * as actions from '../actions';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const theme = getTheme();
 
@@ -22,6 +20,8 @@ const styles = StyleSheet.create({
   action: {
     backgroundColor: 'black',
     color: 'white',
+    paddingBottom: 5,
+    paddingTop: 5,
   },
   icon: {
     position: 'absolute',
@@ -39,15 +39,19 @@ const CompanyItem = props => {
         source={require('../images/background.jpg')}
         style={[theme.cardImageStyle, styles.image]}
       />
-      <Icon name={'user'} size={100} style={styles.icon} />
+      <Icon name={'business'} size={100} style={styles.icon} />
       <Text style={[theme.cardTitleStyle, styles.title]}>
-        {props.people.firstName} {props.people.lastName}
+        {props.companies.company}
       </Text>
-      <Text style={[theme.cardActionStyle, styles.action]}>
-        {props.people.company}
-      </Text>
+      {props.companies.names.map(name => {
+        return (
+          <Text style={[theme.cardActionStyle, styles.action]}>
+            {name.firstName} {name.lastName}
+          </Text>
+        );
+      })}
     </View>
   );
 };
 
-export default connect(null, actions)(CompanyItem);
+export default CompanyItem;

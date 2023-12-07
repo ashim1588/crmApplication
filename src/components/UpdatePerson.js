@@ -56,7 +56,7 @@ class UpdatePerson extends Component {
     return (
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.form}>
-          <Text>Add a new contact</Text>
+          <Text>Update contact</Text>
           <TextInput
             style={styles.fieldStyles}
             placeholder={'First name...'}

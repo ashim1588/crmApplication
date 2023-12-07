@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-navigation/bottom-tabs": "^5.11.15",
     "@react-navigation/native": "^5.9.8",
+    "lodash": "^4.17.21",
     "react": "18.2.0",
     "react-native": "0.72.7",
     "react-native-material-kit": "^0.6.0-beta.1",

@@ -28,7 +28,7 @@ export const createNewContact = ({
   notes,
 }) => {
   return dispatch => {
-    fetch('http://192.168.1.9:3000/contact', {
+    fetch('http://192.168.1.39:3000/contact', {
       method: 'POST',
       body: JSON.stringify({
         firstName: firstName,
