@@ -1,13 +1,13 @@
 export const selectPerson = peopleId => {
   return {
     type: 'SELECTED_PERSON',
-    selectedId: peopleId,
+    selectId: peopleId,
   };
 };
 
-export const nonPerson = () => {
+export const noneSelected = () => {
   return {
-    type: 'NON_SELECTED',
+    type: 'NONE_SELECTED',
   };
 };
 
@@ -28,7 +28,7 @@ export const createNewContact = ({
   notes,
 }) => {
   return dispatch => {
-    fetch('http://192.168.1.39:3000/contact', {
+    fetch('http://192.168.1.9:3000/contact', {
       method: 'POST',
       body: JSON.stringify({
         firstName: firstName,
@@ -72,5 +72,47 @@ export const deleteContact = id => {
         dispatch({type: 'DELETE_CONTACT'});
       },
     );
+  };
+};
+
+export const updateContact = person => {
+  return {
+    type: 'UPDATE_CONTACT',
+    payload: person,
+  };
+};
+
+export const saveContact = ({
+  firstName,
+  lastName,
+  phone,
+  email,
+  company,
+  project,
+  notes,
+  _id,
+}) => {
+  return dispatch => {
+    fetch(`http://192.168.1.39:3000/contact/${_id}`, {
+      method: 'PUT',
+      body: JSON.stringify({
+        firstName: firstName,
+        lastName: lastName,
+        phone: phone,
+        email: email,
+        company: company,
+        project: project,
+        notes: notes,
+      }),
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(response => console.log(response))
+      .then(() => {
+        dispatch({type: 'SAVE_CONTACT'});
+      })
+      .catch(error => console.log(error));
   };
 };

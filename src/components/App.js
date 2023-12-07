@@ -14,6 +14,7 @@ import {applyMiddleware, createStore} from 'redux';
 import reducers from '../reducers/PeopleReducer';
 import TabNavigator from './Navigation';
 import thunk from 'redux-thunk';
+import {NavigationContainer} from '@react-navigation/native';
 
 const store = createStore(reducers, applyMiddleware(thunk));
 
