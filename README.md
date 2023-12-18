@@ -7,6 +7,8 @@
 
 ![Simulator Screenshot - iPhone 15 Pro - 2023-12-07 at 13 30 54](https://github.com/ashim1588/crmApplication/assets/87517867/186d1d83-b254-4b78-9f7b-ac9c286d44e7)
 
+![Screenshot 2023-12-18 at 11 31 36 AM](https://github.com/ashim1588/crmApplication/assets/87517867/9ad5b7c2-7ffd-4545-9a08-19f2b6beedfd)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
